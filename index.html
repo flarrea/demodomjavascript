@@ -91,15 +91,9 @@
     //addEventListener está atento a cualquier acción que ocurra en el boton. Eventos click, mouseover, mouseout, etc...
 
     var newboton = document.getElementById("boton2");
-    //boton.addEventListener('click', function(){
-    newboton.addEventListener('mouseover', function(){
-     
-        console.log('He detectado en mouse');
-    })
-
-        newboton.addEventListener('mouseout', function(){
     
-        console.log('Se alejó el mouse');
+    newboton.addEventListener('click', function(){
+        console.log('Se realizó una acción sobre el botón');
     })   
 </script>
 </body>
